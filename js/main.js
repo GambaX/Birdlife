@@ -164,8 +164,10 @@ jQuery(function($) {
 	$('.modal-popup .close-link').click(function(event){
 		event.preventDefault();
 		$('#modal1').modal('hide');	
-		$("#login-form").css({"display":"none"});
-		$("#membership-form").css({"display":"block"});
+		//$("#login-form").css({"display":"none"});
+		//$("#membership-form").css({"display":"block"});
+		$("#login-form").fadeOut();
+		$("#membership-form").fadeIn(500);
 	});
 
 	$(window).on("resize", function() {
