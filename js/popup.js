@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 function FormChange(toChange){
     if (toChange){
-        $("#login-form").css({"display":"block"});
-        $("#membership-form").css({"display":"none"});
+        $("#login-form").fadeIn(1);
+        $("#membership-form").fadeOut();
     }
 }

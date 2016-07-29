@@ -166,8 +166,8 @@ jQuery(function($) {
 		$('#modal1').modal('hide');	
 		//$("#login-form").css({"display":"none"});
 		//$("#membership-form").css({"display":"block"});
-		$("#login-form").fadeOut();
-		$("#membership-form").fadeOut(500);
+		$("#login-form").fadeOut(500);
+		$("#membership-form").fadeIn(500);
 	});
 
 	$(window).on("resize", function() {
