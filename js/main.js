@@ -158,7 +158,7 @@ jQuery(function($) {
 		$dialog.css("margin-top", offset);
 		
 	}
-
+	
 	$('.modal').on('show.bs.modal', centerModal);
 
 	$('.modal-popup .close-link').click(function(event){
@@ -167,7 +167,7 @@ jQuery(function($) {
 		//$("#login-form").css({"display":"none"});
 		//$("#membership-form").css({"display":"block"});
 		$("#login-form").fadeOut();
-		$("#membership-form").fadeIn(500);
+		$("#membership-form").fadeOut(500);
 	});
 
 	$(window).on("resize", function() {
